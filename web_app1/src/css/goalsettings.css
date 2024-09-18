@@ -1,0 +1,45 @@
+.goal-settings {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .select-input, .textarea-input, .checkbox-input, .radio-input {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .textarea-input {
+    width: 100%;
+    height: 80px;
+    resize: vertical;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .checkbox-label, .radio-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  

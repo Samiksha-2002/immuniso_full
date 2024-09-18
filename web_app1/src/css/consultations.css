@@ -1,0 +1,386 @@
+.conMain{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 87%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+.conMain .sna{
+    /* border: 1px solid black; */
+    min-height: 95%;
+    width: 90%;
+}
+
+.sna .allResults{
+    width: 395px;
+    left: 65px;
+}
+
+.conMain::-webkit-scrollbar{
+    display: none;
+}
+
+.conMain .cdpNavbar{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cdpNavbar .cdpn{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cdpNavbar button{
+    /* border: 1px solid black; */
+    border: none;
+    padding: 10px 11px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+
+.cdpNavbar button img{
+    width: 13px;
+    height: 13px;
+}
+
+.cdpSearch{
+    border: 1px solid #FFC1DB;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    /* border: 1px solid black; */
+}
+
+
+.cdpSearch input{
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    width: 350px;
+    font-weight: 500;
+    font-style: italic;
+    color: #919191;
+}
+
+.cdpSearch img{
+    width: 15px;
+    height: 15px;
+}
+
+.cdpSearch .sImg{
+    /* border: 1px solid black;  */
+    background-color: #FFC1DB;
+    padding: 2px 6px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.sna .cdpNewOn{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+}
+
+.cdpNewOn h1{
+    font-size: 1rem;
+    /* margin: 20px 0; */
+    margin-top: 20px;
+}
+
+.cdpNewOn .cdpno{
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* width: max-content; */
+}
+
+.cdpno .cdpProf{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.cdpProf .pinkBox{
+    /* border: 1px solid black; */
+    padding:20px;
+    border-radius: 20px;
+    background-color: #FFF2F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pinkBox .profImg{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profImg img{
+    width: 60px;
+    height: 60px;
+}
+
+.pinkBox .pDesc{
+    /* border: 1px solid black; */
+}
+
+.pDesc p{
+    font-weight: 500;
+}
+
+.pinkBox p{
+    /* font-size: 0.9rem; */
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+}
+
+.pinkBox button{
+    border: 1px solid #FE4A95;
+    padding:10px 20px;
+    color: #FE4A95;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 30px;
+}
+
+.pDesc p:nth-child(2), .pDesc p:nth-child(3)
+{
+    font-size: 0.9rem;
+}
+
+.cdpProf .pinkLine{
+    /* border: 1px solid black; */
+    background-color: #FE4A95;
+    height: 1px;
+}
+
+.cdpProf .pl
+{
+    width: 55px;
+}
+
+.cdpProf .pl2
+{
+    width: 45px;
+}
+
+.pinkBox select, .pinkBox option{
+    padding: 10px 20px;
+    border: 1px solid #FE4A95;
+    color: #FE4A95;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 40px;
+    outline: none;  
+}
+
+.pinkBox select {
+    appearance: none; /* Remove default dropdown arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 50px; /* Add space for the custom icon */
+    position: relative;
+    background-image: url('../Images/dropdown.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;  
+  }
+
+  .pinkBox .selectWrapper{
+    position: relative;
+  }
+
+  /* Add custom icon */
+  .pinkBox .selectWrapper::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent the icon from blocking clicks */
+    font-size: 16px; 
+    color: white;
+  }
+
+.cdpProf .pb{
+    align-items: flex-start;
+    padding-right: 50px;
+}
+
+.cdpProf .saveBtn{
+    padding: 15px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.saveBtn button{
+    padding: 5px 20px;
+    /* border: 1px solid black; */
+    border: none;
+    background-color: #D8D8D8;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.svBtn button{
+    background-color: #404040;
+    color: white;
+    cursor: pointer;
+}
+
+.cdpNewOn .cdpnTop{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cdpnTop .headFit{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.headFit h1{
+    margin-top: 0;
+}
+
+.headFit .filters{
+    /* border: 1px solid black; */
+}
+
+.filters .flt{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 20px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.flt p:nth-child(2)
+{
+    cursor: pointer;
+}
+
+.cdpnTop button{
+    border: 1px solid #E5E5E5;
+    display: flex;
+    padding: 7px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: none;
+    color: #404040;
+    background-color: #E5E5E5;
+    cursor: pointer;
+}
+
+.cdpnTop button img{
+    width: 13px ;
+    height: 13px;
+}
+
+
+/* All Consultations  */
+.allCon{
+    margin-top: 30px;
+}
+
+.allCon .cdpnTop{
+    margin-top: 20px;
+}
+
+.allCon .pinkBox{
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    min-height: 120px;
+    padding-right: 50px;
+}
+
+.allCon .pinkBox button{
+    margin: 0;
+}
+
+.allCon .pinkBox:nth-child(1)
+{
+    background-color: transparent;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    font-size: 1.2rem;
+}
+
+
+.allCon .pinkBox:nth-child(4)
+{
+    width: 150px;
+    padding: 10px 20px;
+}
+.allCon .pinkBox:nth-child(4) > button
+{
+    background-color: #FE4A95;
+    color: white;
+}
+
+.allCon .pinkBox:nth-child(1) > button
+{
+    width: 100%;
+}
+
+.allCon .pinkBox:nth-child(3) 
+{
+    width: 235px;
+}
+
+.allCon .cdpProf{
+    gap: 20px;
+}
+
+.upCon{
+    font-weight: 600;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+.conNumber p:nth-child(1)
+{
+    font-size: 2rem;
+    color: #FE4A95;
+}

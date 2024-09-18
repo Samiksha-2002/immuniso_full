@@ -1,0 +1,35 @@
+.allCon .pinkBox:nth-child(4) {
+    width: 300px;
+}
+
+.hfu{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.hfu button{
+    padding: 12px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #FE4A95;
+    color: #404040;
+    background-color: white;
+    gap: 10px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.hfu button img{
+    width: 20px;
+    height: 18px;
+}
+
+.allCon .cdpProf {
+    gap: 30px;
+}

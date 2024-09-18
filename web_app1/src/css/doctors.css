@@ -1,0 +1,160 @@
+.docMain h1{
+    margin: 0;
+}
+
+.docMain .allCon{
+    gap: 20px;
+    min-width: 90%;
+}
+
+.docMain .penProf{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.penProf button{
+    background-color: white;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #707070;
+    position: relative;
+    color: #404040;
+}
+
+.penProf button::after{
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #FF0000;
+    top: -2px;
+    right: 0;
+    border-radius: 40px;
+}
+
+.docMain .pinkBox:nth-child(3) {
+    width: max-content;
+}
+
+.dSpec{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.pinkBox .sps{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 5px; */
+}
+
+.docMain .cdpno{
+    padding: 10px 20px;
+}
+
+.dsTop{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dsTop h1{
+    font-size: 1rem;
+}
+
+.dsSlide .slide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    background-color: transparent;
+    gap: 30px;
+    padding: 0;
+    min-height: max-content;
+    margin: 0;
+}
+
+.dsSlide .ccm{
+    background-color: transparent;
+}
+
+.dsSlide .slide p{
+    /* border: 1px solid black; */
+    padding: 12px 40px;
+    border-radius: 30px;
+    background: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.dsSlide .slide:hover{
+    transform: translateY(0px);
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.dsSlide .sliderBtns button{
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #EAEAEA;
+
+}
+
+.dsSlide .sliderBtns button img{
+    width: 15px;
+    height: 15px;
+}
+
+.dsSlide .sliderBtns .left{
+    transform: rotate(270deg);
+}
+
+.dsSlide .sliderBtns .right{
+    transform: rotate(270deg);
+}
+
+.dsSlide .sliderBtns button:nth-child(1):hover {
+    transform: rotate(270deg);
+}
+.dsSlide .sliderBtns button:nth-child(2):hover {
+    transform: rotate(270deg);
+}
+
+.ind{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: max-content;
+    padding: 10px 20px;
+    background-color: #FFFAFC;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+
+.ind button{
+    display: flex;
+    align-items: center;
+    padding: 7px 15px;
+    background-color: #FE4A95;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.ind button p{
+    font-size: 0.8rem;
+}
+
+.ind button img{
+    width: 15px;
+    height: 15px;
+}
